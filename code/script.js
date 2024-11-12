@@ -1,6 +1,6 @@
 // A function that adds and remove the class "active" on the section you click on.
 function toggle(e) {
-  const element = e.target;
+  const element = e.currentTarget;
   const iconElement = element.querySelector("i");
 
   element.classList.toggle("active");
@@ -50,12 +50,6 @@ async function getPosts() {
 
     sectionDiv.style.backgroundColor =
       rainbowColors[index % rainbowColors.length];
-
-    /* if (index % 2 === 0) {
-      sectionDiv.style.backgroundColor = "#8BB3CC";
-    } else {
-      sectionDiv.style.backgroundColor = "#A8DADC";
-    } */
 
     const descriptionP = document.createElement("p");
     descriptionP.textContent = post.body;
