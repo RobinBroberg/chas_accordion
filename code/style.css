@@ -1,6 +1,8 @@
 html {
   background: #f2f1f4;
   color: #19171c;
+  display: flex;
+  justify-content: center;
 }
 .description {
   display: none;
@@ -13,12 +15,12 @@ html {
   cursor: pointer;
   font-weight: bold;
   padding: 10px 0;
-  max-width: 450px;
+  width: 650px;
 }
 
 .title:hover {
   filter: brightness(85%);
 }
 .description {
-  max-width: 400px;
+  max-width: 600px;
 }
