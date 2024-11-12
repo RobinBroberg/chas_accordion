@@ -1,5 +1,5 @@
 html {
-  background: #f2f1f4;
+  background: #f1f2f4;
   color: #19171c;
   display: flex;
   justify-content: center;
@@ -15,12 +15,26 @@ html {
   cursor: pointer;
   font-weight: bold;
   padding: 10px 0;
-  width: 650px;
+  width: 70vw;
+  border-radius: 5px;
+  padding: 20px;
+  border: #1c2582;
+  border-style: solid;
+  margin: 8px;
 }
 
 .title:hover {
   filter: brightness(85%);
 }
 .description {
-  max-width: 600px;
+  max-width: 65vw;
+  margin-left: 10px;
+}
+.accordion {
+  border-width: 5px;
+  border: #1c2582;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: whitesmoke;
 }
